@@ -16,17 +16,18 @@
     // var_dump($array)
     ?>
 
-    <h1>Paragrafo censored</h1>
-    <p>
-    <?php
-    echo $newstring
-    ?>
-    </p>
 
-    <h1>Paragrafo over 18</h1>
+    <h1>Paragrafo over 18 è lungo <?php echo strlen($string) ?> caratteri</h1>
     <p>
     <?php
     echo $string
+    ?>
+    </p>
+
+    <h1>Paragrafo censored è lungo <?php echo strlen($newstring) ?> caratteri</h1>
+    <p>
+    <?php
+    echo $newstring
     ?>
     </p>
 
